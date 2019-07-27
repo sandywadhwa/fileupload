@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>File Upload Example</title>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <link href="/css/site.css" rel="stylesheet" id="site-css">
+        <script src="/js/site.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center">File Upload Example</h1>
+            <form class="text-center" action="/profile" method="post" enctype="multipart/form-data">
+                <input type="file" name="avatar" />
+                <input type="submit" value="Upload" class="rounded-0 btn btn-primary">
+            </form>
+            <!--
+            <form id="fileUploadForm" method="POST" action="/profile" enctype="multipart/form-data">
+                <fieldset>
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <div class="row">
+                            <label class="control-label col-md-2 text-right" for="filename"><span>File</span></label>
+                            <div class="col-md-10">
+                                <div class="input-group">
+                                    <input type="hidden" id="filename" name="form-file-name" value="">
+                                    <input type="file" id="uploadedFile" name="avatar" class="form-control form-control-sm" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                                    <div class="input-group-btn">
+                                        <input type="submit" value="Upload" class="rounded-0 btn btn-primary">
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </fieldset>    
+            </form>
+            <div class="file-upload">
+                <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
+
+                <div class="image-upload-wrap">
+                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                    <div class="drag-text">
+                    <h3>Drag and drop a file or select add Image</h3>
+                    </div>
+                </div>
+                <div class="file-upload-content">
+                    <img class="file-upload-image" src="#" alt="your image" />
+                    <div class="image-title-wrap">
+                    <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+                    </div>
+                </div>
+            </div>
+        -->
+        </div>
+
+
+    </body>
+</html>
